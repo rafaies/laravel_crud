@@ -77,7 +77,7 @@
                         </td>
                         <td>
                             <a href="{{route('todos.edit',['todo'=>$todo->id])}}" class="btn btn-info">Edit</a>
-                            <a href="{{route('todos.destroy',['todo'=>$todo->id])}}" class="btn btn-danger">Delete</a>
+                            <a href="{{route('todos.delete',['todo'=>$todo->id])}}" class="btn btn-danger">Delete</a>
                         </td>
                     </tr>
 

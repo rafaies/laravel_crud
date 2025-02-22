@@ -9,4 +9,4 @@ Route::get('/', function () {
 
 Route::resource('todos', TodoController::class);
 
-Route::get('todos/{todo}', [TodoController::class,'destroy'])->name('todos.destroy');
+Route::get('todos/delete/{todo}', [TodoController::class,'destroy'])->name(name: 'todos.delete');
